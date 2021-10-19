@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  max-width : 1440px;
+  margin: 0 auto;
 }
 
 a {
@@ -13,4 +16,198 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container{
+  max-width : 1220px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width : 1240px){
+  .container{
+    padding: 0 30px;
+  }
+}
+
+
+/* -------------NAVIGATION----------- */
+/* .navigation-right-col{
+  font-family: "Proxima Nova",sans-serif;
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+} */
+
+#navigation{
+  padding: 18px;
+}
+
+.navigation-right-col-login-button{
+  color: #262626;
+  font-family: "Proxima Nova",sans-serif;
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+.navigation-right-col-getstarted-button{
+ background: #00B9FF;
+border-radius: 40px;
+color: #FFFFFF;
+font-family: "Proxima Nova",sans-serif;
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+/* line-height: 24px; */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+height: 40px;
+}
+
+
+
+/* ---------------FOOTER------------------ */
+#footer{
+  padding-top: 30px;
+  background: #F5F5F5;
+}
+
+.footer-logo{
+  width: 68px;
+}
+
+.NCA-img{
+  width: 58px;
+}
+
+.footer-left-col__child-header{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 11px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* Gray / gray-7 */
+
+color: #8C8C8C;
+}
+
+.footer-left-col__child-text{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 20px;
+text-align: center;
+color: #8C8C8C;
+}
+
+.footer-right-col .anticon{
+  margin-right: 6px;
+}
+
+#footer-bottom{
+  padding : 8px 0px;
+  background-color: #F0F0F0;
+  margin-top: 15px;
+}
+
+.footer-bottom-text{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 20px;
+text-align: center;
+color: #8C8C8C;
+}
+
+
+/* ------------HOME---------------- */
+
+.hero-section{
+  padding: 70px 0 40px 0;
+  background: linear-gradient(180deg, #2E4369 70%, #def6ff 50%);
+}
+
+.hero-section-heading{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+.hero-section-sub-heading{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color :rgba(255, 255, 255, 0.7);
+margin-top: 20px;
+}
+
+.hero-section-text{
+  font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color :rgba(255, 255, 255, 0.7);
+}
+
+.text-white{
+  color : #ffffff;
+}
+
+
+.hero-section-divider{
+  border-top : 1px solid #FFFFFF !important;
+  opacity: 0.3;
+}
+
+.hero-section-img{
+  width: 100%;
+}
+
+.hero-section-email-form-item{
+  width: 70%;
+}
+
+.hero-section-email-input{
+  background: #FFFFFF;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 2px;
+
+font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #8C8C8C;
+}
+
+.hero-section-signup-btn{
+  background: #00B9FF;
+border-radius: 40px;
+
+font-family: "Proxima Nova",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
